@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MACHINE INC.</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="role">Role</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
 </resources>
