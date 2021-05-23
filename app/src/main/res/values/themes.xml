@@ -25,9 +25,5 @@
     <style name="Splash" parent="Theme.AppCompat.NoActionBar"/>
 
 
-    <style name="DialogTheme" parent="Theme.AppCompat.Light.NoActionBar">      //no actionbar, but status bar exists
-        <item name="android:windowFullscreen">true</item>                       //remove status bar
-        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
-    </style>
 
 </resources>

@@ -32,6 +32,7 @@
                 android:background="@drawable/background_edit_text"
                 android:paddingHorizontal="20dp"
                 android:text="@string/sign_up"
+                android:fontFamily="@font/epilogue_bold"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -42,6 +43,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/name"
+                android:fontFamily="@font/epilogue_bold"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -50,6 +52,7 @@
                 android:id="@+id/register_et_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/epilogue_bold"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/background_edit_text"
                 android:inputType="textPersonName" />
@@ -61,6 +64,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/email"
+                android:fontFamily="@font/epilogue_bold"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -70,6 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/epilogue_bold"
                 android:background="@drawable/background_edit_text"
                 android:inputType="textEmailAddress" />
 
@@ -78,6 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/epilogue_bold"
                 android:text="@string/role"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -87,6 +93,7 @@
                 android:id="@+id/register_spinner_role"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:fontFamily="@font/epilogue_bold"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/background_edit_text"
                 android:entries="@array/type_role" />
@@ -98,6 +105,7 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/password"
+                android:fontFamily="@font/epilogue_bold"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -107,6 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:fontFamily="@font/epilogue_bold"
                 android:background="@drawable/background_edit_text"
                 android:inputType="textPassword" />
 
@@ -116,6 +125,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="30dp"
+                android:fontFamily="@font/epilogue_bold"
                 android:text="@string/sign_up"
                 android:textColor="@color/white"
                 android:textSize="20sp"

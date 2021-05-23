@@ -21,6 +21,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textStyle="bold"
+            android:layout_marginHorizontal="30dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/epilogue_bold"
             android:textSize="30sp"/>
         <TextView
             android:id="@+id/welcome_tv_role"
@@ -28,7 +31,8 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="30sp"/>
+            android:fontFamily="@font/epilogue_bold"
+            android:textSize="20sp"/>
     </LinearLayout>
 
     <TextView
@@ -39,8 +43,8 @@
         android:textColor="@color/yellow"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/epilogue_bold"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

@@ -28,6 +28,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/background_edit_text"
             android:paddingHorizontal="30dp"
+            android:fontFamily="@font/epilogue_bold"
             android:text="@string/login"
             android:textColor="@color/black"
             android:textSize="20sp"
@@ -40,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/background_edit_text"
+            android:fontFamily="@font/epilogue_bold"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:textColorHint="@color/black" />
@@ -51,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/background_edit_text"
+            android:fontFamily="@font/epilogue_bold"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:textColorHint="@color/black" />
@@ -62,6 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
+            android:fontFamily="@font/epilogue_bold"
             android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="20sp"
