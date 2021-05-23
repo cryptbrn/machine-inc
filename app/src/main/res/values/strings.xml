@@ -6,4 +6,14 @@
     <string name="role">Role</string>
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
+    <string name="error_empty_field">This field is required</string>
+
+    <string-array name="type_role">
+        <item>-- Select Type --</item>
+        <item>Worker</item>
+        <item>Manager</item>
+        <item>Technician</item>
+    </string-array>
+
+
 </resources>
