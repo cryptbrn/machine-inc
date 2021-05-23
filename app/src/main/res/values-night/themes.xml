@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/black</item>
         <item name="colorPrimaryVariant">@color/yellow</item>
         <item name="colorOnPrimary">@color/black</item>
+        <item name="colorAccent">@color/yellow</item>
         <!-- Secondary brand color. -->
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
