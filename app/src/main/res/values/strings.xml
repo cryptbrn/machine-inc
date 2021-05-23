@@ -7,6 +7,8 @@
     <string name="password">Password</string>
     <string name="login">LOGIN</string>
     <string name="error_empty_field">This field is required</string>
+    <string name="next">NEXT</string>
+    <string name="log_out"><u>LOG OUT</u></string>
 
     <string-array name="type_role">
         <item>-- Select Type --</item>

@@ -262,10 +262,13 @@ public class AuthenticationActivity extends AppCompatActivity {
                                     if(task.isSuccessful()){
                                         showProgress(false,progress);
                                         Toast.makeText(AuthenticationActivity.this, "Registration Success", Toast.LENGTH_LONG).show();
+                                        Intent intent = new Intent(AuthenticationActivity.this, AuthenticationActivity.class);
+                                        startActivity(intent);
+                                        finish();
                                     }
                                     else {
                                         showProgress(false, progress);
-                                        Toast.makeText(AuthenticationActivity.this, "Registration Success", Toast.LENGTH_LONG).show();
+                                        Toast.makeText(AuthenticationActivity.this, "Registration Failed", Toast.LENGTH_LONG).show();
 
                                     }
 
@@ -275,7 +278,7 @@ public class AuthenticationActivity extends AppCompatActivity {
                         }
                         else {
                             showProgress(false, progress);
-                            Toast.makeText(AuthenticationActivity.this, "Please choose role first", Toast.LENGTH_LONG).show();
+                            Toast.makeText(AuthenticationActivity.this, "Registration Failed", Toast.LENGTH_LONG).show();
 
                         }
                     }
